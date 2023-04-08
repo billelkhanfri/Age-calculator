@@ -1,0 +1,85 @@
+body {
+  background-color: hsl(0, 0%, 86%);
+  font-family: "Poppins", sans-serif;
+}
+.container {
+  background-color: hsl(0, 0%, 100%);
+  width: 400px;
+  height: 350px;
+  margin: 50px auto;
+  border-radius: 20px 20px 90px 20px;
+}
+form {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  width: 65%;
+  padding: 30px;
+}
+form input {
+  width: 70px;
+  height: 30px;
+  border: 1px solid hsl(0, 1%, 86%);
+  border-radius: 5px;
+}
+form label {
+  display: block;
+  color: hsl(0, 1%, 44%);
+  font-size: 8px;
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+form input::placeholder {
+  font-weight: 800;
+  text-align: left;
+  padding-left: 10px;
+}
+.button-line {
+  display: flex;
+}
+.ligne {
+  width: 70%;
+  height: 2px;
+  background-color: hsl(0, 0%, 86%);
+  margin-left: 30px;
+}
+#button {
+  width: 52px;
+  height: 52px;
+  border-radius: 50px;
+  background-color: blueviolet;
+  margin-top: -25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  cursor: pointer;
+  border: none;
+}
+.content {
+  display: flex;
+
+  width: 250px;
+  margin: auto;
+  justify-content: space-between;
+}
+.date {
+  line-height: 30px;
+}
+.date h1 {
+  font-size: 40px;
+  font-style: italic;
+}
+.results {
+  display: flex;
+  justify-content: space-around;
+
+  gap: 5px;
+}
+.results p {
+  border-bottom: 10px solid blueviolet;
+  width: 30px;
+  height: 25px;
+  transform: skewX(-15deg);
+}
